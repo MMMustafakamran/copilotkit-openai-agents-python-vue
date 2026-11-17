@@ -4,11 +4,11 @@
  "repo": "OpenAIAgents-Vue",
  "docBase": "https://docs.copilotkit.ai/vue/openai-agents-python/",
  "versions": {
-  "@copilotkit/vue": "1.85.0",
-  "@copilotkit/runtime": "1.85.0",
+  "@copilotkit/vue": "1.88.0",
+  "@copilotkit/runtime": "1.88.0",
   "@ag-ui/client": "1.0.4",
   "vue": "3.5.45",
-  "vite": "8.3.6",
+  "vite": "8.3.8",
   "openai-agents": "0.24.0",
   "ag-ui-openai-agents": "0.1.0"
  },
@@ -150,7 +150,8 @@
     {
      "text": null,
      "clip": "OAI-vue-01-Quickstart",
-     "loom": "https://www.loom.com/share/3434bce0f604458abbda6f359b28b4b7"
+     "loom": "https://www.loom.com/share/41698cc95c884c82a595069ca3cc2f17",
+     "filmed": "2026-11-17"
     }
    ],
    "added": "2026-11-13"
@@ -637,23 +638,6 @@
    "docPath": "generative-ui/a2ui/fixed-schema",
    "reachable": "in-content",
    "linkedFrom": "concepts/generative-ui-overview",
-   "status": "❌",
-   "notTested": true,
-   "findings": [],
-   "notes": [],
-   "block": null,
-   "links": [],
-   "added": "2026-11-13"
-  },
-  {
-   "id": "model-selection",
-   "label": "Model Selection",
-   "kind": "guide",
-   "group": null,
-   "child": false,
-   "docPath": "model-selection",
-   "reachable": "in-content",
-   "linkedFrom": "troubleshooting/common-issues",
    "status": "❌",
    "notTested": true,
    "findings": [],
