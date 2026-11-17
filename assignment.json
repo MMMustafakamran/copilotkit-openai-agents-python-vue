@@ -164,12 +164,22 @@
    "child": true,
    "docPath": "prebuilt-components",
    "reachable": "sidebar",
-   "status": "❌",
-   "notTested": true,
-   "findings": [],
-   "notes": [],
+   "status": "✅",
+   "findings": [
+    12
+   ],
+   "notes": [
+    "Note: uses agent-id my-agent, which nothing registers."
+   ],
    "block": null,
-   "links": [],
+   "links": [
+    {
+     "text": "Prebuilt Components - Vue",
+     "clip": "OAI-vue-02-PrebuiltComponents",
+     "loom": "https://www.loom.com/share/da2fe3a32ae74893ac7d0ba0d8e4bf2a",
+     "filmed": "2026-11-17"
+    }
+   ],
    "added": "2026-11-13"
   },
   {
@@ -180,12 +190,22 @@
    "child": true,
    "docPath": "custom-look-and-feel/slots",
    "reachable": "sidebar",
-   "status": "❌",
-   "notTested": true,
-   "findings": [],
-   "notes": [],
+   "status": "✅",
+   "findings": [
+    13
+   ],
+   "notes": [
+    "Note: the disclaimer slot example renders nothing."
+   ],
    "block": null,
-   "links": [],
+   "links": [
+    {
+     "text": "Slots - Vue",
+     "clip": "OAI-vue-03-Slots",
+     "loom": "https://www.loom.com/share/7e4b0d64627f4ddb8615f688f49505f1",
+     "filmed": "2026-11-17"
+    }
+   ],
    "added": "2026-11-13"
   },
   {
@@ -196,12 +216,18 @@
    "child": true,
    "docPath": "custom-look-and-feel/headless-ui",
    "reachable": "sidebar",
-   "status": "❌",
-   "notTested": true,
+   "status": "✅",
    "findings": [],
    "notes": [],
    "block": null,
-   "links": [],
+   "links": [
+    {
+     "text": "Headless UI - Vue",
+     "clip": "OAI-vue-04-HeadlessUi",
+     "loom": "https://www.loom.com/share/125f40548d5445ff8bad157a6cf8bf63",
+     "filmed": "2026-11-17"
+    }
+   ],
    "added": "2026-11-13"
   },
   {
@@ -213,11 +239,21 @@
    "docPath": "programmatic-control",
    "reachable": "sidebar",
    "status": "❌",
-   "notTested": true,
-   "findings": [],
-   "notes": [],
+   "findings": [
+    3
+   ],
+   "notes": [
+    "Issue: agent_server.py uses lifespan and AGENTS that are never defined, and no agent is given for agentId \"sales\", so the backend won't start as written."
+   ],
    "block": null,
-   "links": [],
+   "links": [
+    {
+     "text": "Issue",
+     "clip": "OAI-vue-05-ProgrammaticControl",
+     "loom": "https://www.loom.com/share/0849bb3304b342f8a638bc624b347860",
+     "filmed": "2026-11-17"
+    }
+   ],
    "added": "2026-11-13"
   },
   {
@@ -228,12 +264,20 @@
    "child": true,
    "docPath": "prebuilt-components/copilot-threads-drawer",
    "reachable": "sidebar",
-   "status": "❌",
-   "notTested": true,
-   "findings": [],
+   "status": "✅",
+   "findings": [
+    12
+   ],
    "notes": [],
    "block": null,
-   "links": [],
+   "links": [
+    {
+     "text": "Threads Drawer - Vue",
+     "clip": "OAI-vue-06-ThreadsDrawer",
+     "loom": "https://www.loom.com/share/bac74c3f92f14821a05c4b03fb817474",
+     "filmed": "2026-11-17"
+    }
+   ],
    "added": "2026-11-13"
   },
   {
@@ -244,12 +288,20 @@
    "child": true,
    "docPath": "headless-threads",
    "reachable": "sidebar",
-   "status": "❌",
-   "notTested": true,
-   "findings": [],
+   "status": "✅",
+   "findings": [
+    14
+   ],
    "notes": [],
    "block": null,
-   "links": [],
+   "links": [
+    {
+     "text": "Headless Threads - Vue",
+     "clip": "OAI-vue-07-HeadlessThreads",
+     "loom": "https://www.loom.com/share/5fd01a588a924dffb54b4d9c7221d193",
+     "filmed": "2026-11-17"
+    }
+   ],
    "added": "2026-11-13"
   },
   {
@@ -260,12 +312,18 @@
    "child": false,
    "docPath": "frontend-tools",
    "reachable": "sidebar",
-   "status": "❌",
-   "notTested": true,
+   "status": "✅",
    "findings": [],
    "notes": [],
    "block": null,
-   "links": [],
+   "links": [
+    {
+     "text": "Frontend-tools - Vue",
+     "clip": "OAI-vue-12-FrontendTools",
+     "loom": "https://www.loom.com/share/6ff6b801a16842b4a77b2fa9ed8644e2",
+     "filmed": "2026-11-17"
+    }
+   ],
    "added": "2026-11-13"
   },
   {
@@ -276,12 +334,18 @@
    "child": true,
    "docPath": "generative-ui/tool-based",
    "reachable": "sidebar",
-   "status": "❌",
-   "notTested": true,
+   "status": "✅",
    "findings": [],
    "notes": [],
    "block": null,
-   "links": [],
+   "links": [
+    {
+     "text": "Components as Tools - Vue",
+     "clip": "OAI-vue-13-ToolBased",
+     "loom": "https://www.loom.com/share/45585806aaa74086b04a7f39ff78f6b8",
+     "filmed": "2026-11-17"
+    }
+   ],
    "added": "2026-11-13"
   },
   {
@@ -292,12 +356,22 @@
    "child": true,
    "docPath": "generative-ui/tool-rendering",
    "reachable": "sidebar",
-   "status": "❌",
-   "notTested": true,
-   "findings": [],
-   "notes": [],
+   "status": "✅",
+   "findings": [
+    16
+   ],
+   "notes": [
+    "Note: WeatherToolCard reads parameters.city but the tool argument is location, so the card heading is empty."
+   ],
    "block": null,
-   "links": [],
+   "links": [
+    {
+     "text": "Tool Call Rendering - Vue",
+     "clip": "OAI-vue-14-ToolRendering",
+     "loom": "https://www.loom.com/share/bce5544c2853448a8529e347f7dc8947",
+     "filmed": "2026-11-17"
+    }
+   ],
    "added": "2026-11-13"
   },
   {
@@ -309,11 +383,21 @@
    "docPath": "generative-ui/state-rendering",
    "reachable": "sidebar",
    "status": "❌",
-   "notTested": true,
-   "findings": [],
-   "notes": [],
+   "findings": [
+    6
+   ],
+   "notes": [
+    "Issue: the UI reads status/draft/completed/total but the agent only writes document, so the panel stays Idle."
+   ],
    "block": null,
-   "links": [],
+   "links": [
+    {
+     "text": "Issue",
+     "clip": "OAI-vue-15-StateRendering",
+     "loom": "https://www.loom.com/share/d77f78a034114608910459988b39fc54",
+     "filmed": "2026-11-17"
+    }
+   ],
    "added": "2026-11-13"
   },
   {
@@ -324,12 +408,22 @@
    "child": true,
    "docPath": "generative-ui/mcp-apps",
    "reachable": "sidebar",
-   "status": "❌",
-   "notTested": true,
-   "findings": [],
-   "notes": [],
+   "status": "✅",
+   "findings": [
+    17
+   ],
+   "notes": [
+    "Note: agents: { default: agent } uses an agent that is never defined; the MCP URL is a placeholder."
+   ],
    "block": null,
-   "links": [],
+   "links": [
+    {
+     "text": "MCP Apps - Vue",
+     "clip": "OAI-vue-16-McpApps",
+     "loom": "https://www.loom.com/share/90fa3f5f7c1a41e69792d7d1e40f7118",
+     "filmed": "2026-11-17"
+    }
+   ],
    "added": "2026-11-13"
   },
   {
@@ -340,12 +434,22 @@
    "child": true,
    "docPath": "shared-state",
    "reachable": "sidebar",
-   "status": "❌",
-   "notTested": true,
-   "findings": [],
-   "notes": [],
+   "status": "✅",
+   "findings": [
+    20
+   ],
+   "notes": [
+    "Note: the agent snippets leave out imports and MODEL/chat_settings, easy to fill in."
+   ],
    "block": null,
-   "links": [],
+   "links": [
+    {
+     "text": "Shared State - Vue",
+     "clip": "OAI-vue-22-SharedState",
+     "loom": "https://www.loom.com/share/30f09dc410b1453185bf138170857e11",
+     "filmed": "2026-11-17"
+    }
+   ],
    "added": "2026-11-13"
   },
   {
@@ -356,12 +460,18 @@
    "child": true,
    "docPath": "shared-state/rendering-in-app",
    "reachable": "sidebar",
-   "status": "❌",
-   "notTested": true,
+   "status": "✅",
    "findings": [],
    "notes": [],
    "block": null,
-   "links": [],
+   "links": [
+    {
+     "text": "Render agent state in your app - Vue",
+     "clip": "OAI-vue-23-SharedStateRendering",
+     "loom": "https://www.loom.com/share/3a8a997210ab44e8895b9a28ff4e0da7",
+     "filmed": "2026-11-17"
+    }
+   ],
    "added": "2026-11-13"
   },
   {
@@ -372,12 +482,22 @@
    "child": true,
    "docPath": "shared-state/streaming",
    "reachable": "sidebar",
-   "status": "❌",
-   "notTested": true,
-   "findings": [],
-   "notes": [],
+   "status": "✅",
+   "findings": [
+    21
+   ],
+   "notes": [
+    "Note: the agent wrapped by DocumentStreamingAgent is never shown, a plain Agent with write_document works."
+   ],
    "block": null,
-   "links": [],
+   "links": [
+    {
+     "text": "State Streaming - Vue",
+     "clip": "OAI-vue-24-SharedStateStreaming",
+     "loom": "https://www.loom.com/share/581523769b2f4b3083c1a70349897c86",
+     "filmed": "2026-11-17"
+    }
+   ],
    "added": "2026-11-13"
   },
   {
@@ -388,12 +508,18 @@
    "child": true,
    "docPath": "shared-state/agent-readonly",
    "reachable": "sidebar",
-   "status": "❌",
-   "notTested": true,
+   "status": "✅",
    "findings": [],
    "notes": [],
    "block": null,
-   "links": [],
+   "links": [
+    {
+     "text": "Agent Read-Only Context - Vue",
+     "clip": "OAI-vue-25-SharedStateReadonly",
+     "loom": "https://www.loom.com/share/ca18966407ef44ed99981f8160fa7a42",
+     "filmed": "2026-11-17"
+    }
+   ],
    "added": "2026-11-13"
   },
   {
@@ -405,11 +531,21 @@
    "docPath": "human-in-the-loop",
    "reachable": "sidebar",
    "status": "❌",
-   "notTested": true,
-   "findings": [],
-   "notes": [],
+   "findings": [
+    9
+   ],
+   "notes": [
+    "Issue: MeetingApproval imports TimePickerCard.vue and hitl.py imports demo_agents._common, neither is shown on the page."
+   ],
    "block": null,
-   "links": [],
+   "links": [
+    {
+     "text": "Issue",
+     "clip": "OAI-vue-26-HumanInTheLoop",
+     "loom": "https://www.loom.com/share/037bc034cd4c40e9992a82f3f0de92d5",
+     "filmed": "2026-11-17"
+    }
+   ],
    "added": "2026-11-13"
   },
   {
@@ -454,12 +590,22 @@
    "child": true,
    "docPath": "human-in-the-loop/governed-actions",
    "reachable": "sidebar",
-   "status": "❌",
-   "notTested": true,
-   "findings": [],
-   "notes": [],
+   "status": "✅",
+   "findings": [
+    22
+   ],
+   "notes": [
+    "Note: no agent or executeSideEffect shown; the approval card works with the quickstart agent."
+   ],
    "block": null,
-   "links": [],
+   "links": [
+    {
+     "text": "Governed Action Approval UI - Vue",
+     "clip": "OAI-vue-27-GovernedActions",
+     "loom": "https://www.loom.com/share/988ffd6ce8c74d8882c2fa9954938537",
+     "filmed": "2026-11-17"
+    }
+   ],
    "added": "2026-11-13"
   },
   {
@@ -471,11 +617,21 @@
    "docPath": "webmcp",
    "reachable": "sidebar",
    "status": "❌",
-   "notTested": true,
-   "findings": [],
-   "notes": [],
+   "findings": [
+    10
+   ],
+   "notes": [
+    "Issue: OrderSearch.vue calls searchOrders(), never defined, and the agent never replies."
+   ],
    "block": null,
-   "links": [],
+   "links": [
+    {
+     "text": "Issue",
+     "clip": "OAI-vue-28-WebMcp",
+     "loom": "https://www.loom.com/share/95c8cc0bea1f4ab5b6abe87679367242",
+     "filmed": "2026-11-17"
+    }
+   ],
    "added": "2026-11-13"
   },
   {
@@ -487,11 +643,21 @@
    "docPath": "multi-agent/subagents",
    "reachable": "sidebar",
    "status": "❌",
-   "notTested": true,
-   "findings": [],
-   "notes": [],
+   "findings": [
+    11
+   ],
+   "notes": [
+    "Issue: the delegation-log section has no Vue code, and subagents.py imports demo_agents._common, never shown."
+   ],
    "block": null,
-   "links": [],
+   "links": [
+    {
+     "text": "Issue",
+     "clip": "OAI-vue-29-SubAgents",
+     "loom": "https://www.loom.com/share/ba09ca0aafbd42beb58d70b910f9fe7a",
+     "filmed": "2026-11-17"
+    }
+   ],
    "added": "2026-11-13"
   },
   {
@@ -502,12 +668,18 @@
    "child": true,
    "docPath": "inspector",
    "reachable": "sidebar",
-   "status": "❌",
-   "notTested": true,
+   "status": "✅",
    "findings": [],
    "notes": [],
    "block": null,
-   "links": [],
+   "links": [
+    {
+     "text": "Inspector - Vue",
+     "clip": "OAI-vue-10-Inspector",
+     "loom": "https://www.loom.com/share/93f754a90ef14820b0386fd58e833877",
+     "filmed": "2026-11-17"
+    }
+   ],
    "added": "2026-11-13"
   },
   {
@@ -520,11 +692,21 @@
    "reachable": "in-content",
    "linkedFrom": "(quickstart)",
    "status": "❌",
-   "notTested": true,
-   "findings": [],
-   "notes": [],
+   "findings": [
+    4
+   ],
+   "notes": [
+    "Issue: the only code is React/Next (page.tsx with <CopilotKit>), no Vue version."
+   ],
    "block": null,
-   "links": [],
+   "links": [
+    {
+     "text": "Issue",
+     "clip": "OAI-vue-08-AgenticChatUi",
+     "loom": "https://www.loom.com/share/122aa47bfb3b4657ae1bb21b9ef059eb",
+     "filmed": "2026-11-17"
+    }
+   ],
    "added": "2026-11-13"
   },
   {
@@ -537,11 +719,21 @@
    "reachable": "in-content",
    "linkedFrom": "inspector",
    "status": "❌",
-   "notTested": true,
-   "findings": [],
-   "notes": [],
+   "findings": [
+    5
+   ],
+   "notes": [
+    "Issue: no Vue frontend at all (Code tab is React only), and agent_config.py needs MODEL / chat_settings from a _common module that's never shown."
+   ],
    "block": null,
-   "links": [],
+   "links": [
+    {
+     "text": "Issue",
+     "clip": "OAI-vue-09-AgentConfig",
+     "loom": "https://www.loom.com/share/ac87f32210154e70b99fb5c3890874e2",
+     "filmed": "2026-11-17"
+    }
+   ],
    "added": "2026-11-13"
   },
   {
@@ -554,11 +746,21 @@
    "reachable": "in-content",
    "linkedFrom": "inspector",
    "status": "❌",
-   "notTested": true,
-   "findings": [],
-   "notes": [],
+   "findings": [
+    7
+   ],
+   "notes": [
+    "Issue: the Vue server.ts calls chat() without a threadId; today's @tanstack/ai rejects it, so every run fails and nothing renders."
+   ],
    "block": null,
-   "links": [],
+   "links": [
+    {
+     "text": "Issue",
+     "clip": "OAI-vue-17-GenerativeUiComponents",
+     "loom": "https://www.loom.com/share/f463b2a6229643ccbe21edc37dc2d607",
+     "filmed": "2026-11-17"
+    }
+   ],
    "added": "2026-11-13"
   },
   {
@@ -570,12 +772,22 @@
    "docPath": "vs-code-extension",
    "reachable": "in-content",
    "linkedFrom": "inspector",
-   "status": "❌",
-   "notTested": true,
-   "findings": [],
-   "notes": [],
+   "status": "✅",
+   "findings": [
+    15
+   ],
+   "notes": [
+    "Note: install command uses extension id copilotkit.copilotkit, which isn't on the Marketplace (real id copilotkit.copilotkit-vscode-extension)."
+   ],
    "block": null,
-   "links": [],
+   "links": [
+    {
+     "text": "VS Code Extension - Vue",
+     "clip": "OAI-vue-11-VsCodeExtension",
+     "loom": "https://www.loom.com/share/19929840be124fa69454919cf637e867",
+     "filmed": "2026-11-17"
+    }
+   ],
    "added": "2026-11-13"
   },
   {
@@ -587,12 +799,22 @@
    "docPath": "generative-ui/reasoning",
    "reachable": "in-content",
    "linkedFrom": "concepts/generative-ui-overview",
-   "status": "❌",
-   "notTested": true,
-   "findings": [],
-   "notes": [],
+   "status": "✅",
+   "findings": [
+    18
+   ],
+   "notes": [
+    "Note: the page shows no agent; the reasoning card only appears with a reasoning model and reasoning summaries turned on."
+   ],
    "block": null,
-   "links": [],
+   "links": [
+    {
+     "text": "Reasoning - Vue",
+     "clip": "OAI-vue-18-Reasoning",
+     "loom": "https://www.loom.com/share/9b5735fdbd5244229e6d1b8c83af0c7f",
+     "filmed": "2026-11-17"
+    }
+   ],
    "added": "2026-11-13"
   },
   {
@@ -604,12 +826,22 @@
    "docPath": "generative-ui/a2ui",
    "reachable": "in-content",
    "linkedFrom": "concepts/generative-ui-overview",
-   "status": "❌",
-   "notTested": true,
-   "findings": [],
-   "notes": [],
+   "status": "✅",
+   "findings": [
+    19
+   ],
+   "notes": [
+    "Note: the provider snippet is React; the runtime-only injectA2UITool path works in Vue."
+   ],
    "block": null,
-   "links": [],
+   "links": [
+    {
+     "text": "A2UI - Vue",
+     "clip": "OAI-vue-19-A2ui",
+     "loom": "https://www.loom.com/share/6fff0236ee8743a1b0bee720d99933f3",
+     "filmed": "2026-11-17"
+    }
+   ],
    "added": "2026-11-13"
   },
   {
@@ -621,12 +853,22 @@
    "docPath": "generative-ui/a2ui/dynamic-schema",
    "reachable": "in-content",
    "linkedFrom": "concepts/generative-ui-overview",
-   "status": "❌",
-   "notTested": true,
-   "findings": [],
-   "notes": [],
+   "status": "✅",
+   "findings": [
+    19
+   ],
+   "notes": [
+    "Note: catalog steps are React only; only the runtime fallback works in Vue."
+   ],
    "block": null,
-   "links": [],
+   "links": [
+    {
+     "text": "Dynamic Schema A2UI - Vue",
+     "clip": "OAI-vue-20-A2uiDynamic",
+     "loom": "https://www.loom.com/share/5a97602a32ba4be8bce193be151852a2",
+     "filmed": "2026-11-17"
+    }
+   ],
    "added": "2026-11-13"
   },
   {
@@ -639,11 +881,21 @@
    "reachable": "in-content",
    "linkedFrom": "concepts/generative-ui-overview",
    "status": "❌",
-   "notTested": true,
-   "findings": [],
-   "notes": [],
+   "findings": [
+    8
+   ],
+   "notes": [
+    "Issue: catalog/renderers/provider code is React only; in Vue the flight card fails with \"Catalog not found\"."
+   ],
    "block": null,
-   "links": [],
+   "links": [
+    {
+     "text": "Issue",
+     "clip": "OAI-vue-21-A2uiFixed",
+     "loom": "https://www.loom.com/share/ed5eff783b8a4aa58c6ea518e4fcb274",
+     "filmed": "2026-11-17"
+    }
+   ],
    "added": "2026-11-13"
   }
  ]

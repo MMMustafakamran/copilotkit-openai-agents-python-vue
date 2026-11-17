@@ -9,10 +9,22 @@ import { type Page } from 'playwright';
 
 import { waitForPageReady } from './page-ready';
 import { runVueQuickstartAction } from './quickstart.actions';
+import { ACTIONS_CHAT } from './chat.actions';
+import { ACTIONS_GENUI } from './genui.actions';
+import { ACTIONS_INTERACT } from './interact.actions';
 
 /** Keys are page ids from `config/pages.config.ts`. Doctor flags any orphans. */
 export const ACTION_MAP: Record<string, PageActionHandler> = {
   quickstart: runVueQuickstartAction,
+  ...ACTIONS_CHAT,
+  ...ACTIONS_GENUI,
+  ...ACTIONS_INTERACT,
+};
+
+const READY_SELECTOR: Record<string, string> = {
+  'headless-ui': 'input[aria-label="Message"], input, textarea',
+  'programmatic-control': 'button',
+  slots: 'button, textarea',
 };
 
 export async function executePageAction(
@@ -22,7 +34,8 @@ export async function executePageAction(
   ctx: ActionContext,
 ): Promise<void> {
   // Vite serves modules lazily, so markup can be on screen before anything is wired to it.
-  await waitForPageReady(page, { label: config.id });
+  // Pages with no standard chat input: wait on what they do have, not the 30s input timeout.
+  await waitForPageReady(page, { label: config.id, inputSelector: READY_SELECTOR[config.id] });
 
   const handler = ACTION_MAP[config.id] ?? runStandardAction;
   await handler(page, config, rootPath, ctx);
